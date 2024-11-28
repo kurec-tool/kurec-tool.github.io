@@ -12,8 +12,12 @@
   "dependencies": {
     "@astrojs/check": "^0.9.4",
     "@astrojs/mdx": "^3.1.9",
+    "@playwright/test": "^1.49.0",
     "astro": "^4.16.16",
-    "typescript": "^5.7.2"
+    "astro-expressive-code": "^0.38.3",
+    "remark-mermaidjs": "^7.0.0",
+    "typescript": "^5.7.2",
+    "unist-util-visit": "^5.0.0"
   },
   "packageManager": "pnpm@9.6.0+sha512.38dc6fba8dba35b39340b9700112c2fe1e12f10b17134715a4aa98ccf7bb035e76fd981cf0bb384dfa98f8d6af5481c2bef2f4266a24bfa20c34eb7147ce0b5e"
 }
