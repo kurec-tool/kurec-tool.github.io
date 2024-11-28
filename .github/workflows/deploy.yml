@@ -36,12 +36,12 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Install dependencies
-        run: pnpm install
-
       - name: Install Playwright Browsers
         run: pnpx playwright install --with-deps chromium
 
+      - name: Install dependencies  
+        run: pnpm install
+  
       - name: Build
         run: pnpm run build
 
